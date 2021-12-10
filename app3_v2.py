@@ -9,7 +9,7 @@ import pickle
 # import pyautogui # for reset button: pip install pyautogui
 
 # load the model.pkl
-path = r'model.pkl'
+path = r'app/loanapp1/model.pkl'
 with open(path, "rb") as f:
 	model = pickle.load(f)
 
